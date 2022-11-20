@@ -21,7 +21,7 @@ function NavbarDu() {
          
         <Navbar.Collapse id="basic-navbar-nav">
           
-          <Nav className="me-auto w-100 d-flex justify-content-center align-items-center">
+          <Nav className="containerNav w-100 d-flex justify-content-center align-items-center">
           <div className='lineaNav'></div> 
             
             <a href="#seccion-1" className="linkNav">Inicio</a>
