@@ -1,0 +1,9 @@
+main {
+    background-image: url(../../assets/images/Fondo-10.svg);
+}
+/* ------media query------- */
+@media (max-width: 575px) {
+    main {
+        background-image: url(0);
+    }
+}

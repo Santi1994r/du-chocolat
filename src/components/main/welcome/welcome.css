@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Dancing+Script&family=Jost:wght@400;700&display=swap');
+
+.containerWelcome{
+    width: 93%;
+}
+.widthBudinNar {
+    width: 90%;
+    margin-top: 6rem;
+}
+
+.widthPanDulce {
+    width: 110%;
+}
+
+.TorSelvaNegra {
+    width: 70%;
+    margin-left: 7%;
+    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.25));
+}
+
+.titPrinc {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Dancing Script';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+}
+
+.parrPrinc {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.btnPedido {
+    display: flex;
+    justify-content: center;
+    background-color: #623518;
+    text-decoration: none;
+    margin-top: 1rem;
+    padding: .7rem;
+    color: #fff;
+    width: 20rem;
+    border-radius: 10px;
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 1.2rem;
+    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.25));
+}
+
+.btnPedido:hover {
+    background-color: #4A2F1E;
+    color: #fff;
+}
+
+/* ----media query--- */
+@media (max-width: 575px) {
+    .modoPc {
+        display: none;
+    }
+    .widthBudinNar {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .widthPanDulce {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .TorSelvaNegra {
+        width: 100%;
+        margin: 0;
+        margin-top: 1rem;
+    }
+    .titPrinc {
+        text-align: center;
+        font-family: 'Dancing Script';
+        font-size: 3rem;
+        padding: 2rem;
+    }
+    .btnPedido {
+        background-color: rebeccapurple;
+    } 
+}

@@ -9,34 +9,28 @@ import './styleNavbar.css'
 
 function NavbarDu() {
   return (
-    <>
+    <header>
              
       <Navbar expand="sm" className='navbarDu'>
       <Container fluid> 
-         {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
          <Navbar.Brand className='containerLogoMobile'>
-          <img className='logoMobile' src={logo} alt="" />
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <img className='logoMobile' src={logo} alt="" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
          </Navbar.Brand>
-         
+      
         <Navbar.Collapse id="basic-navbar-nav">
-          
-          <Nav className="containerNav w-100 d-flex justify-content-center align-items-center">
-          <div className='lineaNav'></div> 
-            
+          <Nav className="w-100 d-flex justify-content-center align-items-center">
+            <div className='lineaNav'></div> 
             <a href="#seccion-1" className="linkNav">Inicio</a>
             <a href="#seccion-2" className="linkNav">Nosotros</a>
-           
-              <img className='logoNavbar' src={logo} alt="" />
-            
+            <img className='logoNavbar' src={logo} alt="" />
             <a href="#seccion-3" className="linkNav">Carta</a>
             <a href="#seccion-4" className="linkNav">Contacto</a>            
           </Nav>
-
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </>
+    </header>
   )
 }
 
