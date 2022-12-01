@@ -75,7 +75,7 @@
     } 
 
     .carrouselMobile {
-        display:block;
+        display:initial
     }
 
     .containerWelcome{
