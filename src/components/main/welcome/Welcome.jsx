@@ -7,7 +7,7 @@ import './welcome.css'
 
 export default function Welcome () {
     return(
-        <>
+        <section>
             <div className="container modoPc">
                 <div className="row row-cols-1 row-cols-md-2">
 
@@ -30,15 +30,11 @@ export default function Welcome () {
                             <p className='parrPrinc'>Nos esforzamos día a día para ofrecerte los mejores postres
                             orgánicos y 100% artesanales</p>
                             <a className="btnPedido" href="https://wa.me/51991672404?text=Hola%20quiero%20hacer%20un%20pedido" target="_blank">¡Quiero hacer un pedido!</a>
-                            {/* <Button className="btn btnPedido" href="https://wa.me/51991672404?text=Hola%20quiero%20hacer%20un%20pedido" >¡Quiero hacer un pedido!</Button> */}
-                            {/* <a className="btn btnPedido" target="_blank" href="https://wa.me/51991672404?text=Hola%20quiero%20hacer%20un%20pedido" role="button">
-                            ¡Quiero hacer un pedido!
-                            </a> */}
                         </div>
                     </div>
 
                 </div>
             </div>
-        </>
+        </section>
     )
 }

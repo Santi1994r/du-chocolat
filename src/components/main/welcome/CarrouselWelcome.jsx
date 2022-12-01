@@ -1,13 +1,18 @@
 import React from 'react'
+import Carousel from 'react-bootstrap/Carousel';
+import budin from '../../../assets/images/Queques-de-naranja.svg'
+import panDulce from '../../../assets/images/pan-dulce.svg'
+import tortaNegra from '../../../assets/images/torta-selva-negra-frutillas.svg'
 
 function CarrouselWelcome() {
+
   return (
-    <div>
+    <section className='carrouselMobile'>
       <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src={budin}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -18,7 +23,7 @@ function CarrouselWelcome() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={panDulce}
             alt="Second slide"
           />
 
@@ -30,7 +35,7 @@ function CarrouselWelcome() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src={tortaNegra}
             alt="Third slide"
           />
 
@@ -42,7 +47,14 @@ function CarrouselWelcome() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+
+      <div className="containerWelcome">
+        <h1 className='titPrinc'>¡Bienvenido!</h1>
+        <p className='parrPrinc'>Nos esforzamos día a día para ofrecerte los mejores postres
+        orgánicos y 100% artesanales</p>
+        <a className="btnPedido" href="https://wa.me/51991672404?text=Hola%20quiero%20hacer%20un%20pedido" target="_blank">¡Quiero hacer un pedido!</a>
+      </div>
+    </section>
   );
 }
 
