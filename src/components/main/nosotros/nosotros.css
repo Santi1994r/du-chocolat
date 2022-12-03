@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* SECCION 2 */
+.sec-2 {
+    margin-top: 10rem;
+}
+.imgSec2-torta {
+    width: 88%;
+    margin-left: 6%;
+}
+.imgSec2-galletas {
+    width: 90%;
+}
+.titSec2 {
+    font-family: 'Jost', sans-serif;
+    margin-top: 1.5rem;
+}
+.titSec2Dancing {
+    font-family: 'Dancing Script';
+    margin-right: 10%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.parrafSec-2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
+    width: 31rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.parraf-galletas {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
+    width: 31rem;
+    padding: .5rem;
+}
+
+.imgSec2Mobile {
+    display: none;
+}
+
+@media (min-width: 1400px) {
+
+    .titSec2 {
+        font-family: 'Jost', sans-serif;
+        margin-top: -2.5rem;
+    }
+
+    .imgSec2-galletas {
+        width: 90%;
+        margin-top: -2.5rem;
+    }
+
+    .parraf-galletas {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.2rem;
+        text-align: center;
+        width: 90%;
+        padding: .5rem;
+        margin-right: 0;
+    }
+
+    .titSec2Dancing {
+        font-family: 'Dancing Script';
+        margin-right: 10%;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+/* FIN SECCION 2 */
+
+/* ------media query------- */
+@media (max-width: 575px) {
+    .sec-2 {
+        margin-top: 5rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .sec-2-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .nosotros {
+        padding: 0;
+    }
+
+    .parrafSec-2 {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;     
+        margin-left: 0;
+        padding: 0;
+        
+    }
+
+    .imgSec2-torta {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .imgSec2-galletas {
+        display: none;
+    }
+    
+    .parraf-galletas {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .imgSec2Mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .titSec2Dancing {
+        font-family: 'Dancing Script';
+        text-align: center;
+        margin-right: 0;
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .parraf-galletas {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.2rem;
+        width: 100%;
+        padding: .5rem;
+        text-align: center;
+    }
+
+    .titSec2 {
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+    }
+}
