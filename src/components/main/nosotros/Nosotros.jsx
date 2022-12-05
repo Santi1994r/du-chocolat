@@ -9,8 +9,8 @@ export default function Nosotros() {
         <section id="seccion-2"></section>
         <section className="container sec-2">
             <div className="d-flex justify-content-center sec-2-mobile">
-                <div className="col d-flex flex-column align-items-center nosotros">
-                    <h2 className="titSec2">NOSOTROS</h2>
+                <div className="col d-flex flex-column align-items-center">
+                    <h2 className="titSec2">NOSOTRAS</h2>
                     <p className="parrafSec-2">Somos un emprendimiento liderado principalmente por mujeres, que inició
                         hace más de
                         17 años, realizando productos a base de cacao y chocolate.

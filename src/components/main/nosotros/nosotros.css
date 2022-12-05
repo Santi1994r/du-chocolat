@@ -37,6 +37,7 @@
     font-size: 1.2rem;
     width: 31rem;
     padding: .5rem;
+    text-align: center;
 }
 
 .imgSec2Mobile {
@@ -48,20 +49,31 @@
     .titSec2 {
         font-family: 'Jost', sans-serif;
         margin-top: -2.5rem;
+        margin-left: 13%;
     }
 
     .imgSec2-galletas {
-        width: 90%;
+        width: 85%;
         margin-top: -2.5rem;
+        margin-left: 2%;
     }
 
     .parraf-galletas {
         font-family: 'Jost', sans-serif;
         font-size: 1.2rem;
-        text-align: center;
         width: 90%;
         padding: .5rem;
         margin-right: 0;
+    }
+
+    .parrafSec-2 {
+        font-family: 'Jost', sans-serif;
+        font-size: 1.2rem;
+        width: 80%;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 13%;
     }
 
     .titSec2Dancing {
@@ -71,6 +83,13 @@
         text-align: center;
         margin-top: 1rem;
     }
+
+    .imgSec2-torta {
+        width: 82%;
+        margin-left: 13%;
+    }
+
+
 }
 /* FIN SECCION 2 */
 
@@ -90,9 +109,6 @@
         padding-left: 0;
     }
 
-    .nosotros {
-        padding: 0;
-    }
 
     .parrafSec-2 {
         font-family: 'Jost', sans-serif;
@@ -101,7 +117,6 @@
         text-align: center;     
         margin-left: 0;
         padding: 0;
-        
     }
 
     .imgSec2-torta {

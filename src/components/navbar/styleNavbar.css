@@ -38,11 +38,28 @@
 .linkNav:hover { 
     color: #FAA618;
 }
+
+.titMobile {
+    display: none;
+}
 /* -----Media Query----- */
 
 @media (min-width: 576px) and (max-width: 1920px) {
     .logoMobile {
         display: none;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 330px) {
+    .titMobile {
+        display: block;
+        color: red;
+        white-space: normal;
+        text-indent: size;
+        font-size: 1.5rem;
+        font-family: 'Dancing Script';
+        margin-bottom: 0;
+        margin-right: 0;
     }
 }
 
@@ -81,6 +98,14 @@
 
     }
 
-    
+    .titMobile {
+        display: block;
+        color: #fff;
+        font-family: 'Dancing Script';
+        margin-bottom: 0;
+        margin-right: 6%;
+        white-space: normal;
+        font-size: 1.5rem;
+    }
 
 }

@@ -65,7 +65,7 @@
     
 
     .widthBudinNar {
-        width: 80%;
+        width: 82%;
         margin-top: 6rem;
     }
 
@@ -95,7 +95,7 @@
     }
     .btnPedido {
         background-color: #623518;
-        width: 90%;
+        width: 90% !important;
     } 
 
     .carrouselMobile {

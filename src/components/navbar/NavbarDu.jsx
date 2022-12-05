@@ -15,6 +15,7 @@ function NavbarDu() {
       <Container fluid> 
          <Navbar.Brand className='containerLogoMobile'>
             <img className='logoMobile' src={logo} alt="" />
+            <p className='titMobile'>Reposteria Artesanal</p>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
          </Navbar.Brand>
       
