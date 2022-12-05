@@ -31,7 +31,7 @@ export default function QueHacemos() {
     <section className='container ContainerLoQueHacemos'>
         <h4 className='titSec3'>Lo que hacemos</h4>
         <div className='llaveContainer'>
-            <img src={llavePrinc} alt="" />
+            <img className='llaveSec3' src={llavePrinc} alt="" />
         </div>
         <div className="row containerCards">
             <div className="col columnaCards">
@@ -68,7 +68,7 @@ Deléitate con nuestros alfajores, cupcakes y bocaditos salados pensados especia
             <div className="col p-0">
                 <img className='budinCarta' src={carta} alt="" />
             </div>
-            <div className="col">
+            <div className="col containerBtnCarta">
                 <h5 className='titCarta'>Carta</h5>
                 <p className='textoCarta'>Haz click acá abajo para ver el listado completo de todos nuestros productos y sus precios</p>
                 <a className="btnCarta" target="_blank" href="https://linktr.ee/duchocolat_peru" role="button" >
