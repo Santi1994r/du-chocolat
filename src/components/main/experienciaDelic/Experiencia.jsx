@@ -34,7 +34,7 @@ export default function Experiencia() {
                     </div>
                 </div>
             </div>
-            <div className="container">
+            <div className="container redesContainer">
                 <div className="row">
                     <div className="col d-flex flex-column align-items-center justify-content-center">
                         <img src={corcheteSup} className="my-4 corchete" alt="" />
