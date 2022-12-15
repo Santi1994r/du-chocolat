@@ -35,7 +35,7 @@ export default function Experiencia() {
                 </div>
             </div>
             <div className="container redesContainer">
-                <div className="row">
+                <div className="row redes">
                     <div className="col d-flex flex-column align-items-center justify-content-center">
                         <img src={corcheteSup} className="my-4 corchete" alt="" />
                         <h6 className="my-4 shadowText textSec-4">Pedir por Whatsapp</h6>

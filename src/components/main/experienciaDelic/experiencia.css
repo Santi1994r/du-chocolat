@@ -109,4 +109,9 @@
     .textSec-4 {
         font-size: 1.7rem;
     }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
 }
