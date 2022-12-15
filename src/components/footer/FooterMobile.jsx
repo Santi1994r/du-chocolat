@@ -11,7 +11,7 @@ export default function FooterMobile() {
   return (
     <footer className="footerMobile container-fluid">
       <div className="row">
-        <h6 className="contacFooter text-center">¡Contáctanos!</h6>
+        <h6 className="contacFooterM text-center">¡Contáctanos!</h6>
         <p className="mt-2 text-white fs-5 text-center">De Lunes a Sábado</p>
         <p className="text-white fs-5 text-center">Horario: 09:00 - 21:00</p>
       </div>
