@@ -49,7 +49,7 @@ export default function QueHacemos() {
               />
               <InfoCarrousel
                 tit="Chocolates"
-                parr="Disfruta de nuestra gran variedad de bombones, trufas, habanos y
+                parr="Disfrutá de nuestra gran variedad de bombones, trufas, habanos y
         tabletas de chocolate, a base de cacao orgánico, con exquisitos frutos
         secos, deshidratados y rellenos caseros."
               />
@@ -102,7 +102,7 @@ Deléitate con nuestros alfajores, cupcakes y bocaditos salados pensados especia
               />
               <InfoCarrousel
                 tit="Gift Box"
-                parr="Sorprende con estás bellas cajas de regalo, únicas y especiales, con diversos productos dulces, frutos y accesorios que harán de tu regalo una experiencia inolvidable."
+                parr="Sorprende con estas bellas cajas de regalo, únicas y especiales, con diversos productos dulces, frutos y accesorios que harán de tu regalo una experiencia inolvidable."
               />
             </figure>
           </div>
