@@ -4,12 +4,11 @@ import CarrouselSec3 from "./CarrouselSec3";
 import InfoCarrousel from "./InfoCarrousel";
 /* -------imagenes de Carrousel 1 ------ */
 import tabletas from "../../../assets/images/carousel1/Tabletas.jpeg";
-import trufas from "../../../assets/images/carousel1/Trufas.jpeg";
-import bombones from "../../../assets/images/carousel1/Bombonesdealmendras.jpeg";
+import chocolateria from "../../../assets/images/carousel1/chocolateria.jpeg";
+import chocoBarra from "../../../assets/images/carousel1/chocoBarra.jpeg";
 /* -------fin de imagenes de carrousel------ */
 /* -------imagenes de Carrousel 2 ------ */
-import chocoManjar from "../../../assets/images/carousel2/Chocomanjar.jpeg";
-/* import chocoManjar2 from '../../../assets/images/carousel2/tortaManjar.jpeg' */
+import chocoManjar from "../../../assets/images/carousel2/chocoManjar.jpeg";
 import quequeFrutado from "../../../assets/images/carousel2/Quequefrutado.jpeg";
 import redvelvet from "../../../assets/images/carousel2/Redvelvet.jpeg";
 /* ------------------------------------- */
@@ -41,8 +40,8 @@ export default function QueHacemos() {
             <figure className="containerCard">
               <CarrouselSec3
                 img1={tabletas}
-                img2={trufas}
-                img3={bombones}
+                img2={chocolateria}
+                img3={chocoBarra}
                 ref1="Tabletas"
                 ref2="Trufas"
                 ref3="Bombones"

@@ -1,24 +1,24 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 /* -------imagenes de Carrousel 1 ------ */
-import tabletas from '../../../assets/images/carousel1/Tabletas.jpeg'
+/* import tabletas from '../../../assets/images/carousel1/Tabletas.jpeg'
 import trufas from '../../../assets/images/carousel1/Trufas.jpeg'
-import bombones from '../../../assets/images/carousel1/Bombonesdealmendras.jpeg'
+import bombones from '../../../assets/images/carousel1/Bombonesdealmendras.jpeg' */
 /* ------------------------------------- */
 /* -------imagenes de Carrousel 2 ------ */
-import chocoManjar from '../../../assets/images/carousel2/Chocomanjar.jpeg'
+/* import chocoManjar from "../../../assets/images/carousel2/chocoManjar.jpeg";
 import quequeFrutado from '../../../assets/images/carousel2/Quequefrutado.jpeg'
-import redvelvet from '../../../assets/images/carousel2/Redvelvet.jpeg'
+import redvelvet from '../../../assets/images/carousel2/redVelvet.jpeg' */
 /* ------------------------------------- */
 /* -------imagenes de Carrousel 3 ------ */
-import alfajores from '../../../assets/images/carousel3/Alfajores.jpeg'
+/* import alfajores from '../../../assets/images/carousel3/Alfajores.jpeg'
 import brownies from '../../../assets/images/carousel3/Brownies.jpeg'
-import cupcakes from '../../../assets/images/carousel3/cupcakes.jpeg'
+import cupcakes from '../../../assets/images/carousel3/cupcakes.jpeg' */
 /* ------------------------------------- */
 /* -------imagenes de Carrousel 4 ------ */
-import giftBox1 from '../../../assets/images/carousel4/giftBox.jpeg'
+/* import giftBox1 from '../../../assets/images/carousel4/giftBox.jpeg'
 import giftBox3 from '../../../assets/images/carousel4/giftBox.jpeg'
-import giftBox2 from '../../../assets/images/carousel4/giftBox2.jpeg'
+import giftBox2 from '../../../assets/images/carousel4/giftBox2.jpeg' */
 /* ------------------------------------- */
 
 function CarrouselSec3(props) {
