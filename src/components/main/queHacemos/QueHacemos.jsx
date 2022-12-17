@@ -9,6 +9,7 @@ import bombones from '../../../assets/images/carousel1/Bombonesdealmendras.jpeg'
 /* -------fin de imagenes de carrousel------ */
 /* -------imagenes de Carrousel 2 ------ */
 import chocoManjar from '../../../assets/images/carousel2/Chocomanjar.jpeg'
+/* import chocoManjar2 from '../../../assets/images/carousel2/tortaManjar.jpeg' */
 import quequeFrutado from '../../../assets/images/carousel2/Quequefrutado.jpeg'
 import redvelvet from '../../../assets/images/carousel2/Redvelvet.jpeg'
 /* ------------------------------------- */
@@ -19,7 +20,7 @@ import cupcakes from '../../../assets/images/carousel3/cupcakes.jpeg'
 /* ------------------------------------- */
 /* -------imagenes de Carrousel 4 ------ */
 import giftBox1 from '../../../assets/images/carousel4/giftBox.jpeg'
-import giftBox3 from '../../../assets/images/carousel4/giftBox.jpeg'
+import giftBox3 from '../../../assets/images/carousel4/giftBox3.jpeg'
 import giftBox2 from '../../../assets/images/carousel4/giftBox2.jpeg'
 /* ------------------------------------- */
 /* ------- carta ------ */

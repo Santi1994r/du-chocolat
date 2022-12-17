@@ -188,4 +188,9 @@
         width: 100%;
         margin-bottom: .8rem;
     }
+
+    .carrouselContainer {
+        width: 70%;    
+        margin: auto;
+    }
 }

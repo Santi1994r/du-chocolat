@@ -11,7 +11,7 @@ export default function FooterMobile() {
   return (
     <footer className="footerMobile container-fluid">
       <div className="row">
-        <h6 className="contacFooterM text-center">¡Contáctanos!</h6>
+        <h6 className="contacFooterM">¡Contáctanos!</h6>
         <p className="mt-2 text-white fs-5 text-center">De Lunes a Sábado</p>
         <p className="text-white fs-5 text-center">Horario: 09:00 - 21:00</p>
       </div>
@@ -29,7 +29,7 @@ export default function FooterMobile() {
         </div>
       </div>
       <div className="d-flex justify-content-center mt-2">
-        <img src={mail} alt="du chocolat" />
+        <img className="logoMail" src={mail} alt="du chocolat" />
         <div>
           <p className="text-white mailLargo">du.chocolat.pedidos@gmail.com</p>
         </div>

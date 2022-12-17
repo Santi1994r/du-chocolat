@@ -11,6 +11,9 @@
 
     .contacFooterM {
         font-size: 2.5rem;
+        color: #fff;
+        padding-top: 2rem;
+        text-align: center;
     }
 
     .whatsAppParraf {
@@ -18,9 +21,10 @@
     }
 
     .mailLargo {
-        margin-left: 0;
-        margin-bottom: 0;
+        margin-left: 1rem;
+        margin-bottom: 10%;
         font-size: 1.2rem;
+        word-break: break-all;
     }
 
     .insta {
@@ -43,5 +47,10 @@
         width: 106%;
         position: absolute;
         top: 75%;
+    }
+
+    .logoMail {
+        margin-bottom: 10%;
+
     }
 }

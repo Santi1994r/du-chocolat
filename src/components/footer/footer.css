@@ -21,12 +21,12 @@
 .whatsAppParraf {
     margin: 0;
 }
-.imgFooter {
+/* .imgFooter {
     width: 100%;
     position: relative;
     bottom: -30px;
     z-index: 1;
-}
+} */
 
 @media (max-width: 575px) {
     
