@@ -9,7 +9,7 @@ import corcheteInf from '../../../assets/images/corcheteInfSecc4.svg'
 
 export default function Experiencia() {
   return (
-    <section className="sec-4">
+    <section id='seccion-4' className="sec-4">
             <h5 className="text-center titSecc4">Una experiencia deliciosa empieza aquí:</h5>
             <div className="container-fluid containerSeccion4">
                 <div className="row row-cols-1 row-cols-md-4 g-2">

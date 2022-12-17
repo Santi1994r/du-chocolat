@@ -7,7 +7,7 @@ import tortaNegra from '../../../assets/images/torta-selva-negra-frutillas.svg'
 function CarrouselWelcome() {
 
   return (
-    <section className='carrouselMobile'>
+    <section id='seccion-1' className='carrouselMobile'>
       <Carousel>
         <Carousel.Item>
           <img
