@@ -8,7 +8,7 @@ import chocolateria from "../../../assets/images/carousel1/chocolateria.jpeg";
 import chocoBarra from "../../../assets/images/carousel1/chocoBarra.jpeg";
 /* -------fin de imagenes de carrousel------ */
 /* -------imagenes de Carrousel 2 ------ */
-import chocoManjar from "../../../assets/images/carousel2/chocoManjar.jpeg";
+/* import chocoManjar from "../../../assets/images/carousel2/chocoManjar.jpeg"; */
 import quequeFrutado from "../../../assets/images/carousel2/Quequefrutado.jpeg";
 import redvelvet from "../../../assets/images/carousel2/Redvelvet.jpeg";
 /* ------------------------------------- */
