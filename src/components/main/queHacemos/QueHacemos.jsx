@@ -57,7 +57,7 @@ export default function QueHacemos() {
           <div className="col columnaCards">
             <figure className="containerCard">
               <CarrouselSec3
-                img1={chocoManjar}
+                img1={quequeFrutado}
                 img2={quequeFrutado}
                 img3={redvelvet}
                 ref1="Choco Manjar"
