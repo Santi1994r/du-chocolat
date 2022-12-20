@@ -43,8 +43,8 @@ export default function QueHacemos() {
                 img2={chocolateria}
                 img3={chocoBarra}
                 ref1="Tabletas"
-                ref2="Trufas"
-                ref3="Bombones"
+                ref2="chocolateria"
+                ref3="chocolateria"
               />
               <InfoCarrousel
                 tit="Chocolates"
