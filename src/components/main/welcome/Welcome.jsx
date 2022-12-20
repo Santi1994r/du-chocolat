@@ -1,7 +1,7 @@
 import budinNaranja from '../../../assets/images/Queques-de-naranja.svg'
 import panDulce from '../../../assets/images/pan-dulce.svg'
 import tortaNegra from '../../../assets/images/torta-selva-negra-frutillas.svg'
-import Button from 'react-bootstrap/Button';
+
 
 import './welcome.css'
 
