@@ -24,11 +24,13 @@ export default function Nosotros() {
                 <div className="col">
                     <img src={galletasSec2} className="imgSec2-galletas" alt="" />
                     <h2 className="titSec2Dancing">Postres 100% artesanales</h2>
-                    <p className="parraf-galletas">Elaborados de forma artesanal sin saborizantes ni preservantes
+                    <p className="parraf-galletas">
+                        Elaborados de forma artesanal sin saborizantes ni preservantes
                         artificiales, con ingredientes
                         selectos y orgánicos.
                     </p>
-                    <p  className="parraf-galletas">Además tenemos un compromiso con el medio ambiente, por lo
+                    <p  className="parraf-galletas">
+                        Además tenemos un compromiso con el medio ambiente, por lo
                         que
                         nuestros procesos reducen al
                         mínimo el consumo de plásticos u otros elementos que no sean biodegradables, salvo que estos
