@@ -33,7 +33,7 @@ function CarrouselWelcome() {
       </Carousel>
 
       <div className="containerWelcome">
-        <h1 className='titPrinc'>¡Bienvenido!</h1>
+        <h1 className='titPrinc'>¡Estamos felices de tenerte aquí!</h1>
         <p className='parrPrinc'>Nos esforzamos día a día para ofrecerte los mejores postres
         orgánicos y 100% artesanales</p>
         <a className="btnPedido" href="https://wa.me/51991672404?text=Hola%20quiero%20hacer%20un%20pedido" target="_blank">¡Quiero hacer un pedido!</a>
